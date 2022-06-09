@@ -14,18 +14,18 @@
         {{$message}} <br>
     @enderror
 
-User Type: <select name="type">
+Type: <select name="type">
 <option value="">Select</option>
     <option value="User">User</option>
     <option value="Admin">Admin</option>
-</select><br>
+</select> (default User) <br>
 
-    Password: <input type="password" name="password" ><br>
+    Password: <input type="text" name="password" ><br>
     @error('password')
         {{$message}}<br>
     @enderror
 
-    Confirm Password: <input type="password" name="confirmPass"><br>
+    Confirm Password: <input type="text" name="confirmPass"><br>
     @error('conFirmPass')
         {{$message}}<br>
     @enderror

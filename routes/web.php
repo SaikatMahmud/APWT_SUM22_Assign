@@ -21,4 +21,6 @@ Route::get('/dashboard',[UserController::class,'dash'])->name('user.dash');
 Route::get('/user/details/{id}',[UserController::class,'details'])->name('user.details');
 
 Route::post('/register',[UserController::class,'regSubmit'])->name('user.register.submit');
+Route::post('/login',[UserController::class,'verifyLogin'])->name('user.login.submit');
+
 

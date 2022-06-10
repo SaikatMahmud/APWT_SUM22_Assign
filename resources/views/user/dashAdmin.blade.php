@@ -1,9 +1,9 @@
 @extends('layouts.afterLogin')
 @section('dash_link')
-{{route('user.dash')}}
+{{route('user.dash.admin')}}
 @endsection
 @section('content')
-<h1>This is USER dashboard</h1><br>
+<h1>This is ADMIN dashboard</h1><br>
 
 <table border="1">
     <tr>

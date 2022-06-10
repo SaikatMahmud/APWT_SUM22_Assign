@@ -3,9 +3,9 @@
     <head></head>
     <body>
         <div>
-            <a href="{{route('user.dash')}}">Dashboard</a>
+            <a href="@yield('dash_link')">Dashboard</a>
             | |
-            <a href="{{route('user.details')}}">Your Profile</a>
+            <a href="{{route('user.login')}}">Logout</a>
         </div>
         <br>
         <div>
